@@ -35,10 +35,11 @@ For the "BEFORE" metrics, all resources were initially deployed with exposure to
 For the "AFTER" metrics, Network Security Groups were tightened by blocking all traffic except from my admin workstation, and all other resources were secured using their built-in firewalls along with Private Endpoints.
 
 ## Attack Maps Before Hardening / Security Controls
-![nsg-malicious-allowed-in-Before](https://github.com/user-attachments/assets/c85c837d-a0b6-4ec9-830e-6fbd65ab30aa)<br>
-![linux-ssh-auth-fail -Before](https://github.com/user-attachments/assets/be97a24c-5d5c-4690-be36-1dad3b07e0ee)<br>
-![windows-rdp-auth-fail Before](https://github.com/user-attachments/assets/b5909db7-5afe-4856-8541-8b3adbb69127)<br>
-![mssql-auth-fail-Before](https://github.com/user-attachments/assets/7c8a7a52-eb72-4dda-8c31-8439960dc114)
+![mssql-auth-fail](https://github.com/user-attachments/assets/704ae5f3-f1fb-4fa1-ba0a-a392e8285ca1)
+![linux-ssh-auth-fail](https://github.com/user-attachments/assets/ad5044b1-8653-4e02-a26f-ec1aa5bdd1db)
+![nsg-malicious-allowed-in](https://github.com/user-attachments/assets/194c0c06-1d46-4f37-b2d2-4003d53a0fca)
+![windows-rdp-auth-fail](https://github.com/user-attachments/assets/0e8f6898-36e9-43e4-8e17-19894b2bd55b)
+
 
 
 ## Metrics Before Hardening / Security Controls
