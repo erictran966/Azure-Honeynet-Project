@@ -42,7 +42,15 @@ For the "AFTER" metrics, Network Security Groups were tightened by blocking all 
  
  <b>This attack map highlights the incidents for syslog authentication failures experienced by the Linux server. </b>
 ![linux-ssh-auth-fail](https://github.com/user-attachments/assets/ad5044b1-8653-4e02-a26f-ec1aa5bdd1db)
+<br />
+<br />
+ 
+<b>This attack map showcases RDP and SMB failures against the Window machine.</b>
 ![nsg-malicious-allowed-in](https://github.com/user-attachments/assets/194c0c06-1d46-4f37-b2d2-4003d53a0fca)
+<br />
+<br />
+ 
+<b>This attack map showcases failures against the MSSQL server.</b>
 ![windows-rdp-auth-fail](https://github.com/user-attachments/assets/0e8f6898-36e9-43e4-8e17-19894b2bd55b)
 
 
