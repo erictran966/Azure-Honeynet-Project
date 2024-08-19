@@ -61,13 +61,13 @@ The table below displays the metrics we measured in our insecure environment ove
 Start Time 8/15/2024 14:45:52
 Stop Time 8/16/2024 14:45:52
 
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 49973
-| Syslog                   | 17988
-| SecurityAlert            | 2
-| SecurityIncident         | 420
-| AzureNetworkAnalytics_CL | 1660
+| Metric                                       | Count
+| -------------------------------------------- | -----
+| SecurityEvent (Windows VMs)                  | 49973
+| Syslog (Linux VMs)                           | 17988
+| SecurityAlert (Microsoft Defender for Cloud) | 2
+| SecurityIncident (Sentinel Incidents)        | 420
+| AzureNetworkAnalytics_CL                     | 1660
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -79,13 +79,13 @@ The table below displays the metrics we measured in our environment over another
 Start Time 8/17/2024 0:57:33
 Stop Time	8/18/2024 0:57:33
 
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 18323
-| Syslog                   | 1
-| SecurityAlert            | 0
-| SecurityIncident         | 0
-| AzureNetworkAnalytics_CL | 0
+| Metric                                       | Count
+| -------------------------------------------- | -----
+| SecurityEvent (Windows VMs)                  | 18323
+| Syslog (Linux VMs)                           | 1
+| SecurityAlert (Microsoft Defender for Cloud) | 0
+| SecurityIncident (Sentinel Incidents)        | 0
+| AzureNetworkAnalytics_CL                     | 0
 
 ### Impact of Security Controls 
 
