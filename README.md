@@ -29,7 +29,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
 - Azure Storage Account
 - Microsoft Sentinel
 
-  # Phase I: Honeynet Deployment
+# Phase I: Honeynet Deployment
 In this initial phase, I set up both Windows and Linux virtual machines within a controlled environment designed to be intentionally vulnerable. To create an enticing target for cyberattacks, I configured the environment to allow unrestricted traffic by deliberately disabling firewalls and Network Security Groups (NSGs). This setup simulated a real-world scenario where systems are inadequately protected, thereby attracting potential attackers.
 
 # Phase II: Simulated Attacks and Monitoring
@@ -40,6 +40,8 @@ Over a 24-hour period, I closely monitored and assessed the incidents that occur
 
 # Phase IV: Environment Hardening and Compliance
 Based on the findings from the incident analysis, I implemented a series of security enhancements to harden the environment. These included disabling public access to the virtual machines, creating private endpoints to ensure that only trusted sources could access the systems, and reconfiguring NSGs to restrict traffic exclusively to known and trusted IP addresses. All security measures were aligned with the NIST 800-53 guidelines, ensuring that the environment not only became more secure but also compliant with industry best practices.
+
+![68747470733a2f2f692e696d6775722e636f6d2f365054473763306c2e706e67](https://github.com/user-attachments/assets/3a92f4b4-b5d0-4b03-8e1c-240eff72f95a)
 
 # Phase V: Results and Metrics Comparison
 In the final phase, I conducted a comparative analysis of the environment's security metrics before and after implementing the hardening measures. Initially, the honeynet attracted a substantial amount of malicious traffic, with various attack attempts recorded. However, after the security controls were put in place, the attack surface was significantly reduced, and the malicious activity ceased entirely. This demonstrated the effectiveness of the hardening measures in mitigating risks and protecting the environment from potential threats.
