@@ -45,11 +45,12 @@ Based on the findings from the incident analysis, I implemented a series of secu
 In the final phase, I conducted a comparative analysis of the environment's security metrics before and after implementing the hardening measures. Initially, the honeynet attracted a substantial amount of malicious traffic, with various attack attempts recorded. However, after the security controls were put in place, the attack surface was significantly reduced, and the malicious activity ceased entirely. This demonstrated the effectiveness of the hardening measures in mitigating risks and protecting the environment from potential threats.
 
 
+
+## Attack Maps Before Hardening / Security Controls
 For the "BEFORE" metrics, all resources were initially deployed with exposure to the internet. The Virtual Machines had their Network Security Groups and built-in firewalls fully open, and all other resources were deployed with public endpoints accessible from the internet, meaning Private Endpoints were not utilized.
 
 For the "AFTER" metrics, Network Security Groups were tightened by blocking all traffic except from my admin workstation, and all other resources were secured using their built-in firewalls along with Private Endpoints.
 
-## Attack Maps Before Hardening / Security Controls
  <b>This attack map showcases failures against the MSSQL server. </b>
 ![mssql-auth-fail](https://github.com/user-attachments/assets/704ae5f3-f1fb-4fa1-ba0a-a392e8285ca1)
 <br />
